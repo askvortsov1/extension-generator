@@ -11,7 +11,7 @@ import ora from 'ora';
 import { reset } from 'chalk';
 import _licenseList from 'spdx-license-list/simple';
 
-const licenseList = Array.from(_licenseList);
+const licenseList = Array.from(_licenseList as Set<string>);
 
 args.option(
     'path',
