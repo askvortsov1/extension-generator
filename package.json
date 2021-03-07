@@ -4,8 +4,10 @@
   "description": "A Flarum extension generator by FriendsOfFlarum",
   "main": "src/index.js",
   "bin": {
-    "create-flarum-extension": "src/main",
-    "cfe": "src/main"
+    "create-flarum-extension": "dist/create.js",
+    "cfe": "dist/create.js",
+    "update-flarum-extension": "dist/update.js",
+    "ufe": "dist/update.js"
   },
   "license": "MIT",
   "keywords": [
