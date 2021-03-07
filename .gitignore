@@ -1,4 +1,11 @@
+/vendor
+composer.lock
+composer.phar
 node_modules
 .DS_Store
-test
-*lock
+Thumbs.db
+tests/.phpunit.result.cache
+/tests/integration/tmp
+.vagrant
+.idea/*
+.vscode
